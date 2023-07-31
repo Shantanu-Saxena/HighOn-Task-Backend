@@ -7,7 +7,6 @@ export class AppService {
     return 'Hello World!';
   }
   async addPost(post) {
-    console.log(post);
     const newPost = new PostEntity();
     newPost.image = post.image;
     newPost.description = post.description;
